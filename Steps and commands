@@ -1,0 +1,29 @@
+->To install angular 6 needed environment:
+1.Nodejs(min 6.0 or above)
+2.Npm:(->npm set proxy http://kolla.saisudha:password@gtpproxy.mphasis.com:8080 (or)
+        npm set https-proxy http://kolla.saisudha:password@gtpproxy.mphasis.com:8080
+       ->npm config set strict-ssl false -g)
+3.Angular cli(7.3.8 version):(->npm i -g @angular/cli@7.3.8
+                              ->[ng -v] to see installed or not)
+4.IDE for code(visual studio code)
+
+->ng --version: for angular cli version information.
+->npm -v for version of npm.
+
+->Angular is used for single page applications(SPA).
+->Uses typescript or Dart and then converts it into javascript(Transpilation(converting from 1 source code to another)).
+
+->creating project:
+  ng new projectname
+  ng build
+  ng serve --open (or) ng s --o(for executing).
+  
+->npm i for install
+  npm update for updating
+  npm u for uninstall
+  npm u -g @angular/cli
+  npm cache clean
+  npm i -g @angular/cli
+  npm u package@version
+  
+->ng g c name for creating a component
