@@ -26,4 +26,6 @@
   npm i -g @angular/cli
   npm u package@version
   
-->ng g c name for creating a component
+->ng g c componentname for creating a component
+  ng g p pipename for creating pipe
+  ng g service servicename for creating service
