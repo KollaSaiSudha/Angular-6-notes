@@ -1,0 +1,8 @@
+-> ng new DemoProject : It automatically creates a new project with 5 files 
+  1.app.component.css
+  2.app.component.html
+  3.app.component.spec.ts
+  4.app.component.ts
+  5.app.module.ts
+ cd DemoProject : To run the project move to the directory of that project
+ ng serve : To run the application
