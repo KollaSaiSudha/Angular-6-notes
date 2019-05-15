@@ -1,3 +1,6 @@
+https://intellipaat.com/tutorial/angular-6-tutorial/(tutorial)
+
+
 ->To install angular 6 needed environment:
 1.Nodejs(min 6.0 or above)
 2.Npm:(->npm set proxy http://kolla.saisudha:password@gtpproxy.mphasis.com:8080 (or)
@@ -7,7 +10,7 @@
                               ->[ng -v] to see installed or not)
 4.IDE for code(visual studio code)
 
-->ng --version: for angular cli version information.
+->ng --version (or) ng v : for angular cli version information.
 ->npm -v for version of npm.
 
 ->Angular is used for single page applications(SPA).
@@ -15,17 +18,27 @@
 
 ->creating project:
   ng new projectname
-  ng build
-  ng serve --open (or) ng s --o(for executing).
+  ng build : To compile your Angular project into an output directory
+  ng serve --open (or) ng s --o : This command is used when you want to open your project in a web browser.
   
 ->npm i for install
   npm update for updating
   npm u for uninstall
   npm u -g @angular/cli
   npm cache clean
-  npm i -g @angular/cli
+  npm i -g @angular/cli : to install angular/cli
   npm u package@version
   
 ->ng g c componentname for creating a component
   ng g p pipename for creating pipe
   ng g service servicename for creating service
+  
+->ng serve -port 4201 : When we use serve command without specifying the port like in previous command, the project runs on 4200 port 
+    by default. This command is used when we want to run the project on a specified port. (In this case, port 4201)
+ 
+ ->nf config : To retrieve or send Angular configuration values in angular.json file
+   ng run ProjectName : To run the project with an optional custom builder
+   ng generate or ng g : This helps in adding elements to your applications
+   ng test : This command runs unit tests in your projects
+    
+  
