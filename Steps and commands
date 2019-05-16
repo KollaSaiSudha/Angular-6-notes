@@ -3,7 +3,8 @@ https://intellipaat.com/tutorial/angular-6-tutorial/(tutorial)
 
 ->To install angular 6 needed environment:
 1.Nodejs(min 6.0 or above)
-2.Npm:(->npm set proxy http://kolla.saisudha:password@gtpproxy.mphasis.com:8080 (or)
+2.Npm:(->npm set proxy http://kolla.saisudha:password@gtpproxy.mphasis.com:8080 
+                                        (or)
         npm set https-proxy http://kolla.saisudha:password@gtpproxy.mphasis.com:8080
        ->npm config set strict-ssl false -g)
 3.Angular cli(7.3.8 version):(->npm i -g @angular/cli@7.3.8
