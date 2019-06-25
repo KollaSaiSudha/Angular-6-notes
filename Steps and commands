@@ -33,6 +33,7 @@ https://intellipaat.com/tutorial/angular-6-tutorial/(tutorial)
 ->ng g c componentname for creating a component
   ng g p pipename for creating pipe
   ng g service servicename for creating service
+  ng g service services/users/users: (example) ==> services->users.
   
 ->ng serve -port 4201 : When we use serve command without specifying the port like in previous command, the project runs on 4200 port 
     by default. This command is used when we want to run the project on a specified port. (In this case, port 4201)
